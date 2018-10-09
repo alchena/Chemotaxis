@@ -31,13 +31,13 @@ Bacteria[] woah;
  		if(mouseX < myX){
  			myX = myX + (int)(Math.random() * 11) - 7;
  		} else {
- 			myX = myX + (int)(Math.random() * 10) + 7;
+ 			myX = myX + (int)(Math.random() * 13) + 7;
  		}
 
  		if(mouseY < myY){
  			myY = myY + (int)(Math.random() * 11) - 7;
  		} else {
- 			myY = myY + (int)(Math.random() * 10) + 7;	
+ 			myY = myY + (int)(Math.random() * 13) + 7;	
  		}
  	}
  	void show(){
